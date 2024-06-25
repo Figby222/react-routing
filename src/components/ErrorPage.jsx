@@ -7,6 +7,12 @@ const ErrorPage = () => {
             <Link to="/">
                 You can go back to the home page by clicking here, though!
             </Link>
+            <p>
+                Or you can {" "}
+                <Link to="/profile/DefaultProfile">
+                    go to the default profile by clicking here!
+                </Link>
+            </p>
         </div>
     );
 };
