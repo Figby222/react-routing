@@ -22,7 +22,7 @@ const routes = [
         element: <Recipes />,
     },
     {
-        path: "recipes/:name",
+        path: "recipes/:recipe",
         element: <Recipes />
     }
   ];
