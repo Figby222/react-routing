@@ -1,5 +1,6 @@
 import App from './App.jsx'
 import Profile from "./components/Profile.jsx";
+import Recipes from "./components/Recipes.jsx";
 import ErrorPage from "./components/ErrorPage";
 
 const routes = [
@@ -16,6 +17,14 @@ const routes = [
       path: "profile/:name",
       element: <Profile />,
     },
+    {
+        path: "recipes",
+        element: <Recipes />,
+    },
+    {
+        path: "recipes/:name",
+        element: <Recipes />
+    }
   ];
   
   export default routes;

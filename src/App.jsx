@@ -13,6 +13,9 @@ function App() {
             <li>
               <Link to="profile">Profile page</Link>
             </li>
+            <li>
+              <Link to="recipes">Recipes page</Link>
+            </li>
           </ul>
         </nav>
       </div>
